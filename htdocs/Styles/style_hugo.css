@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --cor-primaria: #010101;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+
+    background-image: url("../assets/hugotop.png");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logodosite {
+    width: 1124px;
+    margin: 61px auto 90px auto;
+ 
+}
+
+.linksdohugo {
+    width: 10px;
+    margin: 0px auto 30px auto;
+ 
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+
+}
+
+.menus{
+    
+}
+
+.linksdohugo_link:hover {
+    background-color: beige;
+}
+
+.menus:hover {
+    color: beige;
+}
